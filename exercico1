@@ -1,0 +1,14 @@
+let numerosDaSorte = [37, 14, 26, 5, 94, 87];
+
+for(let i = 0; i < numerosDaSorte.length; i++) {
+    let numeroAtual = numerosDaSorte[i];
+    if(numeroAtual < 50) {
+        if(numeroAtual % 2 === 0) {
+            console.log(`${numeroAtual} é par e menor que 50`);
+        } else {
+            console.log(`${numeroAtual} é menor que 50`);
+        }
+    } else {
+        console.log(`${numeroAtual} é maior que 50`);
+    }
+}
