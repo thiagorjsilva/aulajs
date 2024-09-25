@@ -1,1 +1,14 @@
+function printBasicOperations(num1, num2) {
+  const addition = `${num1} + ${num2} = ${num1 + num2}`;
+  const subtraction = `${num1} - ${num2} = ${num1 - num2}`;
+  const multiplication = `${num1} × ${num2} = ${num1 * num2}`;
+  const division = `${num1} ÷ ${num2} = ${(num1 / num2).toFixed(1)}`;
 
+  console.log(addition);
+  console.log(subtraction);
+  console.log(multiplication);
+  console.log(division);
+}
+
+
+printBasicOperations(6, 5);
